@@ -3,7 +3,7 @@
 
 function Button({ label, variant = "secondary" }) {
     // Shared styles for all buttons
-    const base = "mt-auto w-fit rounded-lg px-16 py-3.5 text-base font-medium cursor-pointer border-none shadow-sm transition-colors duration-200";
+    const base = "mt-auto w-full rounded-full px-16 py-3.5 text-sm font-regular cursor-pointer border-none shadow-sm transition-colors duration-200";
 
     // Variant-specific colours — each class maps to a component token in index.css
     const variants = {
